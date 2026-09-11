@@ -1,13 +1,13 @@
 # translib-o.1
 A text translation library designed to rewrite text files with translations, powered by Lingva API, requests, and pathlib.
-# Lingva File Translator
+# 
 
 A lightweight and efficient Python library for text and file translation powered by the **Lingva API**, built using `requests` and `pathlib`.
 
 ## 📦 Installation
 
 ```bash
-pip install lingva_file_translator
+pip install translib0.1
 ```
 
 ## 🚀 Functions Overview
@@ -42,7 +42,7 @@ Translates a list of words or phrases (`keys`) and adds them to a specified dict
 ## 💡 Code Examples
 
 ```python
-from lingva_translator import translate, help, trach, trf, mkd
+from translib0.1 import translate, help, trach, trf, mkd
 
 # 1. Basic Translation (Auto-detects source language)
 text = translate("Привет, как дела?", to_lang="en")
