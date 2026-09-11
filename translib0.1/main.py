@@ -3,7 +3,11 @@ from pathlib import Path
 def translate( text, to_lang, from_lang='auto'):
     r = requests.get(f'https://lingva.ml/api/v1/{from_lang}/{to_lang}/{text}')
     res = r.json()    
-    return res['translation']
+    res1 = res['translation'].splitlines()
+    answear = ''
+    for i in res1:
+        answear += i 
+    return answear 
     
 languages = {
     "albanian": "sq",
