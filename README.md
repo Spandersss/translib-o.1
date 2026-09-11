@@ -7,7 +7,7 @@ A lightweight and efficient Python library for text and file translation powered
 ## 📦 Installation
 
 ```bash
-pip install translib0.1
+pip install git+https://github.com/Spandersss/translib-o.1
 ```
 
 ## 🚀 Functions Overview
