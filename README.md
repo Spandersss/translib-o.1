@@ -42,7 +42,7 @@ Translates a list of words or phrases (`keys`) and adds them to a specified dict
 ## 💡 Code Examples
 
 ```python
-from translib0.1 import translate, help, trach, trf, mkd
+from translib import *
 
 # 1. Basic Translation (Auto-detects source language)
 text = translate("Привет, как дела?", to_lang="en")
